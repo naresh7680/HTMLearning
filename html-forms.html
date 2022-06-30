@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+label {
+	
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Text input fields</h2>
+<p style="text-align: center;">Note that the form itself is not visible.</p>
+
+<form action="/action_page.php" style="border:2px solid #f2f8; margin-bottom:100px; background-color: skyblue;" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+	<legend>Personalia:</legend>
+	<h4>Also note that the default width of text input fields is 20 characters.</h4>
+	<h2>The input Element box example</h2>
+	<h2>The label Element</h2>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter first name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Enter last name"><br>
+  
+  <h2>Radio button example</h2>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label><br>
+	
+	<h2>checkbox example</h2>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+  
+  <h2>The HTML form Elements</h2>
+  <ol type="a">
+	<li>input</li>
+	<li>label</li>
+	<li>select</li>
+	<li>textarea</li>
+	<li>button</li>
+	<li>fieldset</li>
+	<li>legend</li>
+	<li>datalist</li>
+	<li>output</li>
+	<li>option</li>
+	<li>optgroup</li>
+	<h2> HTML Input types</h2>
+	<input type="button"><br>
+<input type="checkbox">checkbox<br>
+<input type="color">color<br>
+<input type="date">date<br>
+<input type="datetime-local">date-time-local<br>
+<input type="email">email<br>
+<input type="file">file<br>
+<input type="hidden">hidden<br>
+<input type="image">image<br>
+<input type="month">month<br>
+<input type="number">number<br>
+<input type="password">password<br>
+<input type="radio">radio<br>
+<input type="range">range<br>
+<input type="reset">reset<br>
+<input type="search">search<br>
+<input type="submit">submit<br>
+<input type="tel">tel<br>
+<input type="text">text<br>
+<input type="time">time<br>
+<input type="url">url<br>
+<input type="week">week<br>
+  </ol>
+  
+  <h2>The select Element</h2>
+  <label for="cars">Choose a car:</label>
+	<select id="cars" name="cars">
+	<option value="volvo">Volvo</option>
+	<option value="saab">Saab</option>
+	<option value="fiat">Fiat</option>
+	<option value="audi">Audi</option>
+</select>
+
+	<h2>Allow Multiple Selections:</h2>
+	<label for="cars">Choose a car:</label>
+	<select id="cars" name="cars" size="4" multiple>
+	  <option value="volvo">Volvo</option>
+	  <option value="saab">Saab</option>
+	  <option value="fiat">Fiat</option>
+	  <option value="audi">Audi</option>
+	</select>
+  <h2>submit example</h2>
+  <input type="submit" value="Submit">
+  <h2>button with value example</h2>
+  <input type="button" value="save">
+  
+  <h2> Text Area Example</h2>
+  <textarea placeholder="Enter Description here...." name="message" rows="5" cols="20">
+		
+	
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+	</textarea>
+</form>
+</body>
+</html>
+
